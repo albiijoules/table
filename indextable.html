@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Activity</title>
+    <style>
+        *{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+
+        #title-menu {
+            font-weight: 100;
+            margin: auto;
+        }
+
+        #day-title {
+            text-align: center;
+            font-weight: 800;
+        }
+
+        th, td {
+            border: 1px solid #3c3c4e;
+            border-left: 2px solid #0d0d3a;
+            border-top: 2px solid #0d0d3a;
+            text-align: left;
+            padding: 5px;
+        }
+
+        th {
+            text-align: center;
+        }
+
+        td {
+            font-weight: light;
+            margin: 5px;
+        }
+        table {
+            background: url('images/soobin (2).jpg');
+            background-size: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            margin: auto;
+            width: 50%;
+            
+            margin-top: 20px;
+            
+            border-spacing: 4px;
+            border-top: 15px solid #3c3c4e; 
+            border-left: 15px solid #3c3c4e; 
+            border-right: 15px solid #0d0d3a; 
+            border-bottom: 15px solid #0d0d3a;
+        }
+
+        #t-act {
+            width: 50%;
+            margin: auto;
+            font-size: 40px !important;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="t-act" >HTML Table Activity:</h1>
+    <table>
+        <tr>
+            <th class="title-menu" colspan="4">MENU OF THE WEEK</th>
+
+        </tr>
+        <tr>
+            <th></th>
+            <th colspan="2">MENU</th>
+            <th>PRICE</th>
+        </tr>
+        <tr>
+            <td id="day-title" rowspan="2">MONDAY</td>
+            <td>Crab & corn Soup</td>
+            <td>Fried rice</td>
+            <td rowspan="2">PHP150</td>
+        </tr>
+        <tr>
+            <td>Menudo</td>
+            <td>Coke</td>
+        </tr>
+        <tr>
+            <td id="day-title" rowspan="2">TUESDAY</td>
+            <td>Miso Soup</td>
+            <td>Java rice</td>
+            <td rowspan="2">PHP150</td>
+        </tr>
+        <tr>
+            <td>Liempo</td>
+            <td>Red Ice Tea</td>
+        </tr>
+        <tr>
+            <td id="day-title" rowspan="2">WEDNESDAY</td>
+            <td>Garlic Bread</td>
+            <td>Plain rice</td>
+            <td rowspan="2">PHP150</td>
+        </tr>
+        <tr>
+            <td>Kare-kare</td>
+            <td>Lemonade</td>
+        </tr>
+        <tr>
+            <td id="day-title" rowspan="2">THURSDAY</td>
+            <td>Garlic Nuts</td>
+            <td>Garlic rice</td>
+            <td rowspan="2">PHP150</td>
+        </tr>
+        <tr>
+            <td>Pork Sisig</td>
+            <td>Sarsi</td>
+        </tr>
+        <tr>
+            <td id="day-title" rowspan="2">FRIDAY</td>
+            <td>Vegetable Salad</td>
+            <td>Carbonara</td>
+            <td rowspan="2">PHP150</td>
+        </tr>
+        <tr>
+            <td>Chicken</td>
+            <td>Lemon Ice Tea</td>
+        </tr>
+        <tr>
+            <td id="day-title" rowspan="2">SATURDAY</td>
+            <td>Camaron</td>
+            <td>Lasagna</td>
+            <td rowspan="2">PHP150</td>
+        </tr>
+        <tr>
+            <td>Chicken Bbq</td>
+            <td>Purple Brew</td>
+        </tr>
+        <tr>
+            <td id="day-title" rowspan="2">SUNDAY</td>
+            <td>Wedgea</td>
+            <td>Spaghetti</td>
+            <td rowspan="2">PHP150</td>
+        </tr>
+        <tr>
+            <td>Calzone</td>
+            <td>Chocolate Float</td>
+        </tr>
+        
+    </table>
+</body>
+</html>
